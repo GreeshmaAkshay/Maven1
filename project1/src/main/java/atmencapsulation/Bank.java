@@ -21,7 +21,7 @@ public class Bank {
 	        if (validatePin()) {
 	            System.out.println("Withdrawal amount :" + amount);
 	        } else {
-	            System.out.println("Invalid Pin, Can't withdraw amount.");
+	            System.out.println("Invalid pin, Can't withdraw amount.");
 	        }
 	    }
 	
