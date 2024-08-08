@@ -19,7 +19,7 @@ public class Bank {
 
 	    public void withdraw(int amount) {
 	        if (validatePin()) {
-	            System.out.println("Withdrawal amount :" + amount);
+	            System.out.println("Withdrawal amount  :" + amount);
 	        } else {
 	            System.out.println("Invalid pin, Can't withdraw amount.");
 	        }
